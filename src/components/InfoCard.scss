@@ -1,0 +1,17 @@
+.cardContainer {
+    display: inline-block;
+    margin: 20px;
+    width: 400px;
+    vertical-align: top;
+}
+
+.card {
+    width: 400px;
+    min-height: 400px;
+    max-height: 500px;
+}
+
+.imageContainer {
+    max-width: 400px;
+    max-height: 250px;
+}

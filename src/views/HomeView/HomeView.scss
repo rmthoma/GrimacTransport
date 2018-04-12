@@ -1,5 +1,10 @@
-.duck {
-  display: block;
-  width: 120px;
-  margin: 1.5rem auto;
+.slick-prev:before,
+.slick-next:before {
+  color: grey;
+  font-size: 48px;
+  opacity: 0.4;
+}
+
+.cardArea {
+  display: inline-block;
 }
