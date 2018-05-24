@@ -17,19 +17,20 @@ class PageLayout extends Component {
       mobile = true
     else
       mobile = false
-    
+
     return (
       <div className='pageBody'>
-        <div>
-          <img alt='Grimac Transport Logo' className='logo' src={Logo} />
+        <div className='mobileHeader'>
+          {
+            mobile ? <img alt='Grimac Transport Logo' className='mobileLogo' src={Logo} /> : ""
+          }
         </div>
         <div>
           {
             !mobile ? <Navbar /> : <MobileMenu windowHeight={innerWidth} />
-            // <MobileMenu />
           }
         </div>
-        <h4 className='subtext'>Local, Country and Interstate</h4>    
+        <h5 className='subtext'>Local, Country and Interstate</h5>
         <div className='text-center'>
           <div className='page-layout__viewport'>
             {children}
