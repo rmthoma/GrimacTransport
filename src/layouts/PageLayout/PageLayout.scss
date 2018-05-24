@@ -1,10 +1,5 @@
-.pageBody {
-  // padding: 0 10%;
-  // background-color: #212121;
-}
-
 .subtext {
-  background-color: #355fd3;
+  background-color: #6d6ded;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -17,4 +12,13 @@
 .page-layout__nav-item--active {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.mobileLogo {
+  width: 130px;
+  height: 70px;
+}
+
+.mobileHeader {
+  text-align: center;
 }
