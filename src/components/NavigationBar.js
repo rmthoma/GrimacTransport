@@ -9,7 +9,7 @@ const style = {
 }
 
 const labelStyle = {
-  top: '5px'
+  top: '6px'
 }
 
 //Labels only position correctly if button has a href. It's a Material UI bug.

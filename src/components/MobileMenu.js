@@ -39,10 +39,10 @@ class MobileMenu extends Component {
                     anchorOrigin={{horizontal: 'middle', vertical: 'bottom'}}
                     targetOrigin={{horizontal: 'middle', vertical: 'top'}}
                 >
-                <MenuItem value="1" primaryText="Windows App" />
-                <MenuItem value="2" primaryText="Mac App" />
-                <MenuItem value="3" primaryText="Android App" />
-                <MenuItem value="4" primaryText="iOS App" />
+                <MenuItem value="1" primaryText="Home" href="/" />
+                <MenuItem value="2" primaryText="About Us" />
+                <MenuItem value="3" primaryText="Contact" href="/contact" />
+                <MenuItem value="4" primaryText="Gallery" />
                 </IconMenu>
             </div>
         )

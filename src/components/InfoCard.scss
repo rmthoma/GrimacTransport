@@ -1,17 +1,17 @@
 .cardContainer {
     display: inline-block;
     margin: 20px;
-    width: 400px;
+    width: 400px; //300px for mobile
     vertical-align: top;
 }
 
 .card {
-    width: 400px;
+    width: 400px; //300px for mobile
     min-height: 400px;
     max-height: 500px;
 }
 
 .imageContainer {
-    max-width: 400px;
+    max-width: 400px; //300px for mobile
     max-height: 250px;
 }

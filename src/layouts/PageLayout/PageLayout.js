@@ -30,7 +30,7 @@ class PageLayout extends Component {
           }
         </div>
         <h4 className='subtext'>Local, Country and Interstate</h4>    
-        <div className='container text-center'>
+        <div className='text-center'>
           <div className='page-layout__viewport'>
             {children}
           </div>
