@@ -18,9 +18,12 @@ class InfoCard extends Component {
                     <img className="activator imageStyle" src={image} />
                   </div>
                   <div className="card-content">
-                    <span className="card-title activator grey-text text-darken-4">{title}<i className="material-icons right">more_vert</i></span>
+                    <span className="card-title activator grey-text text-darken-4">{title}</span>
                     <p>{postDate}</p>
                     <br />
+                    {
+                      // TODO: Add text omission for long posts on front of card
+                    }
                     <span>{subtitle}</span>
                     <br />
                     <br />

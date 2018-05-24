@@ -10,24 +10,19 @@ import MobileMenu from '../../components/MobileMenu'
 class PageLayout extends Component {
 
   render() {
-    const {children} = this.props
-    let mobile = ""
-
-    if (/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent))
-      mobile = true
-    else
-      mobile = false
+    const {children, checkIsMobile} = this.props
+    var mobile = checkIsMobile()
 
     return (
       <div className='pageBody'>
         <div className='mobileHeader'>
           {
-            mobile ? <img alt='Grimac Transport Logo' className='mobileLogo' src={Logo} /> : ""
+            mobile.payload ? <img alt='Grimac Transport Logo' className='mobileLogo' src={Logo} /> : ""
           }
         </div>
         <div>
           {
-            !mobile ? <Navbar /> : <MobileMenu windowHeight={innerWidth} />
+            !mobile.payload ? <Navbar /> : <MobileMenu windowHeight={innerWidth} />
           }
         </div>
         <h5 className='subtext'>Local, Country and Interstate</h5>
