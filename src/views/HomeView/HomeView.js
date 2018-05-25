@@ -19,8 +19,8 @@ class HomeView extends Component {
     //TODO Make this mobile compatible - use isMobile to assign different className
 
     return (
-      <div>
-        <div className="container">
+      <div className="container homeContent">
+        <div>
           <PhotoCarousel />
         </div>
         <hr />

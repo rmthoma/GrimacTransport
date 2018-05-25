@@ -3,7 +3,7 @@ import './ContactView.scss'
 import Iframe from 'react-iframe'
 
 export const ContactView = () => (
-  <div>
+  <div className='container'>
     <h3>Contact Us</h3>
     <div className='row'>
       <div className='column'>

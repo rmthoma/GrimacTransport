@@ -17,7 +17,7 @@ class PageLayout extends Component {
       <div className='pageBody'>
         <div className='mobileHeader'>
           {
-            mobile.payload ? <img alt='Grimac Transport Logo' className='mobileLogo' src={Logo} /> : ""
+            mobile.payload ? <img alt='Grimac Transport Logo' src={Logo} /> : ""
           }
         </div>
         <div>
