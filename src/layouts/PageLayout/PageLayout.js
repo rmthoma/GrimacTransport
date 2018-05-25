@@ -3,7 +3,7 @@ import { IndexLink, Link } from 'react-router'
 import PropTypes from 'prop-types'
 import './PageLayout.scss'
 import Navbar from '../../components/NavigationBar'
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/round_logo.png'
 import Footer from '../../components/Footer'
 import MobileMenu from '../../components/MobileMenu'
 
